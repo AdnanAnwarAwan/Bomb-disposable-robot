@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "control": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "telemetry": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

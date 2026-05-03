@@ -1,0 +1,27 @@
+Reference,Value,Part Number,Qty,Description,Supplier
+U1,Arduino Mega 2560,A000047,1,Main microcontroller ATmega2560,Arduino/Mouser
+U2,ESP32-CAM,ESP32-CAM,1,Wi-Fi + OV2640 camera module,AliExpress/Amazon
+U3,MT8870,MT8870DE,1,DTMF tone decoder IC SOIC-18,DigiKey
+U4,MPU-6050,MPU-6050,1,6-axis IMU I2C accel+gyro,DigiKey/AliExpress
+BT1,HC-05,HC-05,1,Bluetooth UART module 2.4GHz,AliExpress
+M1-M4,MG996R,MG996R,5,High-torque metal gear servo 11kg.cm,AliExpress
+M5-M6,JGA25-370,JGA25-370,2,12V DC gear motor 300RPM with encoder,AliExpress
+DRV1-2,BTS7960,BTS7960,2,43A H-bridge motor driver module,AliExpress
+BUCK1,LM2596 5V,LM2596S-5.0,1,Step-down 5V 3A for logic rail,DigiKey
+BUCK2,LM2596 6V,LM2596S-ADJ,1,Step-down 6V 5A adjustable for servos,DigiKey
+C1,2200uF/25V,EEU-FC1E222,1,Electrolytic brownout bulk cap logic rail,DigiKey
+C2,1000uF/16V,EEU-FC1C102,1,Electrolytic bulk cap servo rail,DigiKey
+C3,100nF,CC0805KRX7R9BB104,4,Ceramic motor snubber caps,DigiKey
+D1-D4,1N4007,1N4007-T,4,Motor flyback diodes,DigiKey
+BAT1,LiPo 3S 5000mAh,Generic,1,11.1V 30C LiPo battery,HobbyKing
+CHR1,LiPo Charger,IMAX-B6,1,Balance charger for 3S LiPo,Amazon
+PHONE1,Android Phone,Any,1,On-board GSM phone for DTMF BVLOS,User supplied
+J1,XT60 Connector,XT60,2,Battery main power connector,HobbyKing
+J2,JST-XH 3S,JST-XH,1,Balance lead connector,HobbyKing
+SW1,Main Power,KCD2-201,1,20A rocker switch main power,Amazon
+LED1,Red 5mm,Generic,1,Status LED,DigiKey
+R1,10k,CRCW080510K0FKEA,2,Voltage divider + pull-up,DigiKey
+R2,3.3k,CRCW08053K30FKEA,1,Voltage divider lower,DigiKey
+CHASSIS,Track chassis,Tracked robot chassis,1,Metal chassis with rubber tracks,AliExpress
+CABLE1,Shielded aux,3.5mm shielded,0.5m,DTMF audio path from phone to MT8870,Amazon
+MOUNT1,Camera mount,3D printed,1,ESP32-CAM tilt mount,Print from STL
